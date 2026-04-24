@@ -3,7 +3,9 @@ import time
 from agents import build_reader_agent, build_search_agent, writer_chain, critic_chain
 from tools import web_search, scrape_url
 
-api_key = st.secrets["TAVILY_API_KEY"]
+
+api_key_mistral = st.secrets["MISTRAL_API_KEY"]
+api_key_tavily = st.secrets["TAVILY_API_KEY"]
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title=" UnfairTimeResearch — Know Anything. Instantly.",
