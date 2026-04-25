@@ -1,7 +1,10 @@
 import streamlit as st
+from dotenv import load_dotenv
+import os 
 import time
 from agents import build_reader_agent, build_search_agent, writer_chain, critic_chain
 from tools import web_search, scrape_url
+
 
 
 api_key_mistral = st.secrets["MISTRAL_API_KEY"]
