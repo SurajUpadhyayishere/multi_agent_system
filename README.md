@@ -12,6 +12,10 @@ This system can:
 
 It behaves like a collaborative AI research team instead of a single LLM.
 
+# Live Demo
+
+Try the system here:
+https://multiagentsystemgit-v7ufgkt9kcbcgdpgrpnbma.streamlit.app/
 ---
 
 # Overview
